@@ -1,0 +1,14 @@
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\bin\Debug\net7.0\Client.exe
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\bin\Debug\net7.0\Client.deps.json
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\bin\Debug\net7.0\Client.runtimeconfig.json
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\bin\Debug\net7.0\Client.dll
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\bin\Debug\net7.0\Client.pdb
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.AssemblyInfoInputs.cache
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.AssemblyInfo.cs
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.csproj.CoreCompileInputs.cache
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.dll
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\refint\Client.dll
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.pdb
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
+D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\ref\Client.dll
