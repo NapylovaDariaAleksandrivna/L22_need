@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codding\\Piter2023\\ShiftPuzzle.Backend.Base\\Course\\Lesson20\\PracticeABC\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\Codding\\Piter2023\\L22_need\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\Codding\\Piter2023\\ShiftPuzzle.Backend.Base\\Course\\Lesson20\\PracticeABC\\Client\\Client.csproj",
+      "projectPath": "D:\\Codding\\Piter2023\\L22_need\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\tasyk\\.nuget\\packages\\",
-      "outputPath": "D:\\Codding\\Piter2023\\ShiftPuzzle.Backend.Base\\Course\\Lesson20\\PracticeABC\\Client\\obj\\",
+      "outputPath": "D:\\Codding\\Piter2023\\L22_need\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tasyk\\AppData\\Roaming\\NuGet\\NuGet.Config"

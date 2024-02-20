@@ -8,12 +8,14 @@ public class Order
     [Required]
     [StringLength(100, MinimumLength = 3)]
     public string Name { get; set; }
-    [Range(0.01, 10000)]
-    public double Price { get; set; }
-    public Order(string id, string name, double price)
+    [StringLength(32, MinimumLength = 32)]
+    public string DopPole { get; set; }
+    public DateTime Time {get;set;}
+    public Order(string id, string name, string dopPole, DateTime time)
     {
         ID = id;
         Name = name;
-        Price = price;
+        DopPole = dopPole;
+        Time= time;
     }
 }

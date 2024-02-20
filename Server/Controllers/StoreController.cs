@@ -26,11 +26,11 @@ public class StoreController : ControllerBase
     }
     [HttpDelete]
     [Route("/store/remove")]
-    public IActionResult Delete(string id)
+    public IActionResult Remove(string id)
     {
         try
         {
-            _orderRepository.DeleteOrder(id);
+            _orderRepository.RemoveOrder(id);
             return Ok($"{id} удален");
         }
         catch

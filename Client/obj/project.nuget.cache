@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2WjFNQN5ZAectjMyueekPE6eK12ts/2oYy2pM+rexW4zpsYCh104x6bRDgjCfAUiNlvc5Nzdt5b8r0U201K3uQ==",
+  "dgSpecHash": "cbSXixihaXnOn07lODzlTFg4W2BP4yW/M25v590TX/wiWP4XZS1ZeHSg9g97vDL7GMB+vIEpvCWas6RenVINWw==",
   "success": true,
-  "projectFilePath": "D:\\Codding\\Piter2023\\ShiftPuzzle.Backend.Base\\Course\\Lesson20\\PracticeABC\\Client\\Client.csproj",
+  "projectFilePath": "D:\\Codding\\Piter2023\\L22_need\\Client\\Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

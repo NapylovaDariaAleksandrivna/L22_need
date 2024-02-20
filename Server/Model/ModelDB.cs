@@ -11,7 +11,8 @@ public class SqlLiteOrderRepository : IOrderRepository
         CREATE TABLE IF NOT EXISTS Orders (
             ID VARCHAR(32) PRIMARY KEY,
             Name TEXT NOT NULL,
-            Price REAL NOT NULL
+            DopPole TEXT NOT NULL,
+            Time DATETIME NOT NULL
         )";
     public SqlLiteOrderRepository(string connectionString)
     {
@@ -47,7 +48,7 @@ public class SqlLiteOrderRepository : IOrderRepository
                 {
                     while (reader.Read())
                     {
-                        Order order = new Order(reader["ID"].ToString(), reader["Name"].ToString().ToUpper(), Convert.ToDouble(reader["Price"]));
+                        Order order = new Order(reader["ID"].ToString(), reader["Name"].ToString().ToUpper(), reader["DopPole"].ToString().ToUpper(), DateTime.Parse(reader["Time"].ToString()));
                         orders.Add(order);
                     }
                 }
@@ -61,23 +62,24 @@ public class SqlLiteOrderRepository : IOrderRepository
         using (SQLiteConnection connection = new SQLiteConnection(_connectionString))
         {
             connection.Open();
-            string query = "INSERT INTO Orders (ID, Name, Price) VALUES (@ID, @Name, @Price)";
+            string query = "INSERT INTO Orders (ID, Name, DopPole, Time) VALUES (@ID, @Name, @DopPole, @Time)";
             using (SQLiteCommand command = new SQLiteCommand(query, connection))
             {
                 command.Parameters.AddWithValue("@ID", order.ID);
                 command.Parameters.AddWithValue("@Name", order.Name);
-                command.Parameters.AddWithValue("@Price", order.Price);
+                command.Parameters.AddWithValue("@DopPole", order.DopPole);
+                command.Parameters.AddWithValue("@Time", order.Time);
                 command.ExecuteNonQuery();
             }
         }
     }
 
-    public void DeleteOrder(string id)
+    public void RemoveOrder(string id)
     {
         using (SQLiteConnection connection = new SQLiteConnection(_connectionString))
         {
             connection.Open();
-            string query = "DELETE FROM Orders WHERE ID = @id";
+            string query = "Remove FROM Orders WHERE ID = @id";
             using (SQLiteCommand command = new SQLiteCommand(query, connection))
             {
                 command.Parameters.AddWithValue("@id", id);

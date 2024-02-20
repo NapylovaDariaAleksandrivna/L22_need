@@ -12,3 +12,10 @@ D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client
 D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.pdb
 D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\Client.genruntimeconfig.cache
 D:\Codding\Piter2023\ShiftPuzzle.Backend.Base\Course\Lesson20\PracticeABC\Client\obj\Debug\net7.0\ref\Client.dll
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\Client.AssemblyInfoInputs.cache
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\Client.AssemblyInfo.cs
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\Client.csproj.CoreCompileInputs.cache
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\Client.dll
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\refint\Client.dll
+D:\Codding\Piter2023\L22_need\Client\obj\Debug\net7.0\Client.pdb
