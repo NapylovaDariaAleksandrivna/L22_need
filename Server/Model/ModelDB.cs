@@ -8,12 +8,12 @@ public class SqlLiteOrderRepository : IOrderRepository
     private readonly string _connectionString;
     private List<Order> orders = new List<Order>();
     private const string CreateTableQuery = @"
-        CREATE TABLE IF NOT EXISTS Orders (
-            ID VARCHAR(32) PRIMARY KEY,
-            Name TEXT NOT NULL,
-            DopPole TEXT NOT NULL,
-            Time DATETIME NOT NULL
-        )";
+    CREATE TABLE IF NOT EXISTS Orders (
+        ID VARCHAR(32) PRIMARY KEY,
+        Name TEXT NOT NULL,
+        DopPole TEXT NOT NULL,
+        Time DATETIME
+    )";
     public SqlLiteOrderRepository(string connectionString)
     {
         _connectionString = connectionString;
@@ -48,7 +48,21 @@ public class SqlLiteOrderRepository : IOrderRepository
                 {
                     while (reader.Read())
                     {
-                        Order order = new Order(reader["ID"].ToString(), reader["Name"].ToString().ToUpper(), reader["DopPole"].ToString().ToUpper(), DateTime.Parse(reader["Time"].ToString()));
+                        string id = reader["ID"].ToString();
+                        string name = reader["Name"].ToString().ToUpper();
+                        string dopPole = reader["DopPole"].ToString().ToUpper();
+                        
+                        DateTime time;
+                        if (reader.GetOrdinal("Time") >= 0 && !reader.IsDBNull(reader.GetOrdinal("Time")))
+                        {
+                            time = reader.GetDateTime(reader.GetOrdinal("Time"));
+                        }
+                        else
+                        {
+                            time = DateTime.MinValue;
+                        }
+
+                        Order order = new Order(id, name, dopPole, time);
                         orders.Add(order);
                     }
                 }

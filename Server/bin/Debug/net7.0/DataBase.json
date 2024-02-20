@@ -2,16 +2,16 @@
   {
     "Name": "ExampleProduct123",
     "DopPole": "100.5",
-    "Stock": 20
+    "DateTime": "2024-02-20T10:00:00"
   },
   {
     "Name": "Carrot",
     "DopPole": "125",
-    "Stock": 12
+    "DateTime": "2024-02-20T12:30:00"
   },
   {
     "Name": "apple",
     "DopPole": "123",
-    "Stock": 2
+    "DateTime": "2024-02-20T15:45:00"
   }
 ]
